@@ -25,6 +25,6 @@ ERROR(){
 }
 DOWNLOAD_COMPONENT(){
   Head "Downloading ${COMPONENT} component"
-git clone "https://github.com/srikavyapendiala/${COMPONENT}.git" &>>$LOG
+git clone "https://github.com/sasender/${COMPONENT}.git" &>>$LOG
  cd ${COMPONENT}
 }
